@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> This project is based on analysing the risk of approving loans to the default customers by using EDA.
 
 
 ## Table of Contents
@@ -11,38 +11,39 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project gives an idea about how the real business problems are solved using EDA. And also gives basic understanding on risk analysis in banking and finantial services.
+- This project is based on a consumer finance company which specialises in lending various types of loans to urban customers. With the help of EDA this project is trying to analyse what is the risk on appoving loans for the customers that are categorised as default/charged off.
+- With the help of EDA and risk analysis, this project is trying to analyse the risk on approving the loan on the basis of no. of charged off/defaulter customers by observation of univariate, bivariate and multivarate analysis.
+- The complete loan dataset for all loans issued through the time period 2007 to 2011 are used for this project.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- From univariate analysis the features that are considered to be useful for approving loan are term, grade, purpose, sub_grade, emp_length, earliest_cr_line, revol_util, loan_amnt, annual_inc.
+- From bivariate analysis the features that are considered to be useful for approving loan are term, grade, 
+purpose, int_rate, annual_inc, earliest_cr_line.
+- From multivariate analysis the features that are considered to be useful for approving loan are term, funded_amnt_inv, int_rate, earliest_cr_line, annual_inc, revol_util.
+- After observing all the analysis, the features that are useful on the basis of which approving loan to default customers can be decided are term, grade, purpose, int_rate, annual_inc, revol_util.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Ipython - 7.30.1 (version)
+- NumPy - 1.21.5 (version)
+- Pandas - 1.3.5 (version)
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by lending club.
+- Reference link on risk analysis [https://corporatefinanceinstitute.com/resources/knowledge/credit/purpose-of-credit-risk-analysis/].
+- This project was based on [https://nycdatascience.com/blog/student-works/project-1-analysis-of-lending-clubs-data/].
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@SmitDash] - feel free to contact me!
 
 
 <!-- Optional -->
